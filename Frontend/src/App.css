@@ -1,0 +1,76 @@
+/* App.css */
+
+body {
+  color: black; 
+}
+
+.footer{
+  width:50%;
+  height:10%;
+  background-color:blue;
+  text-align: center;
+  position: absolute;
+  margin-top: 15%;
+}
+
+.header{
+  text-align: center;
+  width: 100%;
+  height: 15%;
+}
+
+
+
+
+
+
+
+
+
+.success-image {
+  background-image: url('./images/checkmark.png'); 
+  background-repeat: no-repeat;
+  background-size: contain; 
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+}
+
+.logo{
+  background-image: url('./images/logo.png'); 
+  background-repeat: no-repeat;
+  background-size: contain; 
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  left: 1%;
+  top: 3%;
+  position: absolute;
+}
+#loginbackground{
+  background-image: url('./images/loginregister.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.listingmenu{
+  left: 9.5%;
+  top: 7%;
+  position: absolute;
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+

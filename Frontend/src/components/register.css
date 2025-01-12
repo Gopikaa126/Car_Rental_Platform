@@ -1,0 +1,351 @@
+html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #fff;
+}
+ 
+/*body {
+    min-height: 100vh;
+    background-color: dodgerblue;
+}*/
+ 
+/* .AppNew {
+  display: flex;
+  flex-direction: initial;
+  justify-content: flex-start;
+   align-items: flex-start;
+  min-height: 100vh;
+  padding: 1rem 0.5rem;
+} */
+ 
+/*
+.login{
+
+    section {
+        margin-top: 3%;
+        margin-left: 15%;
+        max-width: 920px;
+        flex-direction: column;
+        max-height: 10%;
+    }
+    h1{
+        position: absolute;
+        margin-left: 9%;
+        margin-top: 0%;
+
+    }
+    form{
+        background-color: rgb(171, 126, 67);
+        width: 20%;
+        position: absolute;
+        margin-left: 1%;
+        margin-top: 2%;
+        height: 60%;
+    }
+    #username,#password,
+    textarea {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    border-radius: 1% ;
+    margin-left: 15%;
+    width: 55%;
+    margin-top: 5%;
+    margin-bottom: -5%;
+    padding: 2% ;
+    }
+    button{
+        margin-left: 15%;
+        width: 59%;
+        padding: 2%;
+        margin-top: 8%;
+        font-size: 20px;
+    }
+    label{
+        margin-left: 5%;
+        margin-top: 3%;
+        position: absolute;
+        font-weight: bold;
+    }
+    .already{
+    margin-top: 12.5%;
+    position: absolute;
+    margin-left: 17%;
+}
+.Sign-in{
+    background-color: aqua;
+    font-size: 25px;
+}
+.Sign-in:hover
+{
+    background-color: #048f12;
+    transform: scale(1.05);
+}
+}
+    
+.adminlogin{
+    section {
+        margin-top: 3%;
+        margin-left: 15%;
+        max-width: 920px;
+        flex-direction: column;
+        max-height: 10%;
+    }
+    h1{
+        position: absolute;
+        margin-left: 9%;
+        margin-top: 0%;
+
+    }
+    form{
+        background-color: rgb(171, 126, 67);
+        width: 20%;
+        position: absolute;
+        margin-left: 1%;
+        margin-top: 2%;
+        height: 60%;
+    }
+    #adminName,#password,
+    textarea {
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+        border-radius: 1% ;
+        margin-left: 15%;
+        width: 55%;
+        margin-top: 5%;
+        margin-bottom: -5%;
+        padding: 2% ;
+    }
+    button{
+        margin-left: 15%;
+        width: 59%;
+        padding: 2%;
+        margin-top: 8%;
+        font-size: 20px;
+    }
+    label{
+        margin-left: 5%;
+        margin-top: 3%;
+        position: absolute;
+        font-weight: bold;
+    }
+    .already{
+    margin-top: 12.5%;
+    position: absolute;
+    margin-left: 17%;
+}
+.Sign-in{
+    background-color: aqua;
+    font-size: 25px;
+}
+.Sign-in:hover
+{
+    background-color: #048f12;
+    transform: scale(1.05);
+}
+}*/
+
+.register{
+    h1{
+        position: absolute;
+        margin-left: 17%;
+        margin-top: 1%;
+        font-size: 50px;
+    }
+
+    section {
+        
+        background-color: rgb(170, 203, 219);
+        margin-left: 25%;
+        margin-top: 3%;
+        width: 50%;
+        height: 90%;
+        border-radius: 30px;
+
+    }
+    
+        
+        form.leftside{
+            margin-left: 2%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            
+            input[type="text"],
+            input[type="password"],
+            textarea {
+            font-family: 'Nunito', sans-serif;
+            font-size: 20px;
+            margin-top: -2%;
+            border-radius: 1%;
+            width: 33%;
+            border-radius: 10px;
+            height: 40%;
+            margin-left: 10%;
+            padding: 1% 2%;
+            margin-bottom: -5%;
+            }
+        }
+        form.rightside{
+            margin-top: -60%;
+            margin-left:50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            input[type="text"],
+            input[type="password"],
+            textarea {
+            font-family: 'Nunito', sans-serif;
+            font-size: 20px;
+            margin-top: -2%;
+            border-radius: 1%;
+            width: 70%;
+            height: 40%;
+            border-radius: 10px;
+
+            margin-left: 18%;
+            padding: 2.5% 2%;
+            margin-bottom: -5%;
+            }
+        }
+    
+    
+    a, a:visited {
+        color: #fff;
+    }
+    label{
+        margin-left: 5%;
+        margin-top: 5%;
+        padding-bottom: 4%;
+        font-weight: bold;
+    }
+    button{
+        margin-left: 30%;
+        width: 40%;
+        padding: 2%;
+        margin-top: 3.5%;
+    }
+    .instructions {
+        font-size: 0.75rem;
+        border-radius: 0.5rem;
+        background: #000;
+        color: #fff;
+        padding: 5px;
+        position: relative;
+        bottom: -30px;
+        width: 33%;
+        margin-left: 10%;
+    }
+    .instructions > svg {
+        margin-right: 0.25rem;
+
+    }
+    .instructions1 {
+        font-size: 0.75rem;
+        border-radius: 0.5rem;
+        background: #000;
+        color: #fff;
+        padding: 5px;
+        position: relative;
+        bottom: -20px;
+        width: 70%;
+        margin-left: 18%;
+    }
+    .instructions > svg {
+        margin-right: 0.25rem;
+
+    }
+    .offscreen {
+        position: absolute;
+        left: -9999px;
+    }
+     
+    .hide {
+        display: none;
+    }
+     
+    .valid {
+        color: limegreen;
+        margin-left: 0.25rem;
+    }
+     
+    .invalid {
+        color: red;
+        margin-left: 0.25rem;
+    }
+     
+    .errmsg {
+        background-color: lightpink;
+        color: firebrick;
+        font-weight: bold;
+    }
+     
+    .line {
+        display: inline-block;
+    }
+    /*.already{
+        margin-top: 5%;
+        position: absolute;
+        margin-left: 12%;
+    }*/
+    /*#Sign-up{
+        border-radius: 5px;
+        font-size: 25px;
+        width: 10%;
+        position: absolute;
+    }
+    #Sign-up:hover
+    {
+        background-color: #048f12;
+        transform: scale(1.05);
+    }*/
+}
+
+
+    
+
+
+/*div{
+    display:table;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+a, a:visited {
+    color: #fff;
+}*/
+ 
+
+ 
+
+ /*.custom-margin-top{
+    position: absolute;
+    top:10%;
+    left: 10%;
+ }*/
+ 
+
+ 
+
+/*
+
+#background1{
+        background: url(../images/back.jpg)rgb(30,30,30) fixed center center;
+        background-size: cover;
+        width:200%;
+        height:100%;
+        position:fixed;
+}
+*/
+
+#background1 {
+  background-image: url('../images/login.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
